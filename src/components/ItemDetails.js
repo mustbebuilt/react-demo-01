@@ -1,7 +1,6 @@
 import React from 'react';
 
-function ItemDetails({ itemId, items }) {
-
+const ItemDetails = ({ itemId, items }) => {
   const selectedItem = items.find(i => i._id === itemId);
 
   if (!selectedItem) {
@@ -14,6 +13,6 @@ function ItemDetails({ itemId, items }) {
       <p>{selectedItem.details}</p>
     </div>
   );
-}
+};
 
 export default ItemDetails;

@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-function ItemList({ items, onItemSelect }) {
+const ItemList = ({ items, onItemSelect }) => {
   return (
     <ul>
       {items.map(item => (
@@ -10,6 +10,6 @@ function ItemList({ items, onItemSelect }) {
       ))}
     </ul>
   );
-}
+};
 
 export default ItemList;
