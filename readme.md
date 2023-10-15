@@ -44,4 +44,3 @@ This sample application includes three React components: `App`, `ItemList`, and 
 
    - The displayed details are obtained from the selected item's `details` property and rendered in the JSX.
 
-The code appears to be correctly structured, and the communication between these components is well-defined. The issue you mentioned in your previous question about item details not changing should be resolved with the updated `ItemDetails` component that uses the `find` method to locate the selected item based on the provided `itemId`. This ensures that the details of the selected item are correctly displayed.
