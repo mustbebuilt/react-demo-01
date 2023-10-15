@@ -10,7 +10,7 @@ Run with:
 
 ### Application Logic
 
-The code you've provided includes three React components: `App`, `ItemList`, and `ItemDetails`. These components work together to create a simple application for displaying a list of items and allowing the user to view the details of a selected item. Below is an explanation of each component:
+This sample application includes three React components: `App`, `ItemList`, and `ItemDetails`. These components work together to create a simple application for displaying a list of items and allowing the user to view the details of a selected item. Below is an explanation of each component:
 
 1. **App.js**
 
